@@ -25,8 +25,6 @@ The dataset, titled `fake_reviews_dataset.csv`, contains textual reviews that ar
 - `0` representing a fake review 
 - `1` representing a genuine review
 
----
-
 ### Features & Feature Engineering
 
 Two primary feature vectors are constructed from each review:
