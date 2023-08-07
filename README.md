@@ -86,11 +86,11 @@ Note: Refer to the `fake_review_detection.py` script for detailed code implement
 
 #### Accuracy:
 ```
-Decision Tree Accuracy: 0.72
+Decision Tree Accuracy: ~0.72
 
-KNN Accuracy: 0.67
+KNN Accuracy: ~0.67
 
-Neural Network Accuracy: 0.86
+Neural Network Accuracy: ~0.86
 ```
 
 #### Classification Reports:
