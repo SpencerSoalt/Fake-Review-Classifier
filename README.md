@@ -8,10 +8,10 @@ This project is centered around the design and implementation of a sophisticated
 
 ### Table of Contents
 
-- [Installation and Dependencies](#installation-and-dependencies)
 - [Data](#data)
 - [Features & Feature Engineering](#features--feature-engineering)
 - [Methodology](#methodology)
+- [Installation and Dependencies](#installation-and-dependencies)
 - [Usage](#usage)
 - [Results](#results)
 - [License](#license)
