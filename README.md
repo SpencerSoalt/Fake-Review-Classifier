@@ -19,7 +19,7 @@ This project is centered around the design and implementation of a sophisticated
 
 ### Data
 
-The dataset, titled `fake_reviews_dataset.csv`, contains textual reviews that are labeled either as genuine or fake. This data serves as the foundation for training and evaluating the machine learning models. Each review in the dataset is mapped to a binary classification: 
+The dataset, titled `fake_reviews_dataset.csv`, contains 40,432 textual reviews that are labeled either as genuine or fake. This data serves as the foundation for training and evaluating the machine learning models. Each review in the dataset is mapped to a binary classification: 
 
 - `0` representing a fake review 
 - `1` representing a genuine review
