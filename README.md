@@ -2,7 +2,7 @@
 
 ### Introduction / Description
 
-Welcome to the 'Fake Review Detection Classifier' project. In the intricate landscape of e-commerce, the credibility of customer reviews is compromised by the growing prevalence of 'fake' reviews. Our solution? A potent blend of Python, machine learning (ML), and natural language processing (NLP) to combat this issue.
+Welcome to the 'Fake Review Classifier' project. In the intricate landscape of e-commerce, the credibility of customer reviews is compromised by the growing prevalence of 'fake' reviews. Our solution? A potent blend of Python, machine learning (ML), and natural language processing (NLP) to combat this issue.
 
 This project is centered around the design and implementation of a sophisticated machine learning classifier that effectively distinguishes between authentic and fabricated reviews. By leveraging advanced NLP techniques and ML models, we create an algorithmic solution capable of discerning the subtleties that differentiate genuine feedback from fraudulent entries. It's a step towards restoring the integrity of user-based content in the e-commerce space and beyond."
 
