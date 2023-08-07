@@ -141,6 +141,9 @@ Neural Network Classification Report
    macro avg       0.86      0.86      0.86     10108
 weighted avg       0.86      0.86      0.86     10108
 ```
+#### Confusion Matrices
+
+![Confusion Matrices](https://github.com/SpencerSoalt/Fake-Review-Classifier/blob/main/Confusion%20Matrices.png)
 
 ### License
 
