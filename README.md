@@ -93,7 +93,41 @@ Note: Refer to the `fake_review_detection.py` script for detailed code implement
 
 ### Results
 
-While the actual performance metrics aren't delineated within the codebase, the established pipeline is designed for robust evaluation. The generated confusion matrix and classification report post-training provide granular insights into model efficacies, capturing metrics like accuracy, precision, recall, and F1-score.
+#### Accuracy:
+Decision Tree Accuracy: 0.72
+KNN Accuracy: 0.67
+Neural Network Accuracy: 0.86
+
+#### Classification Reports:
+Decision Tree Classification Report
+              precision    recall  f1-score   support
+
+ Fake Review       0.71      0.73      0.72      5077
+ Real Review       0.72      0.70      0.71      5031
+
+    accuracy                           0.72     10108
+   macro avg       0.72      0.72      0.72     10108
+weighted avg       0.72      0.72      0.72     10108
+
+KNN Classification Report
+              precision    recall  f1-score   support
+
+ Fake Review       0.68      0.63      0.66      5060
+ Real Review       0.66      0.70      0.68      5048
+
+    accuracy                           0.67     10108
+   macro avg       0.67      0.67      0.67     10108
+weighted avg       0.67      0.67      0.67     10108
+
+Neural Network Classification Report
+              precision    recall  f1-score   support
+
+ Fake Review       0.86      0.87      0.86      5055
+ Real Review       0.87      0.86      0.86      5053
+
+    accuracy                           0.86     10108
+   macro avg       0.86      0.86      0.86     10108
+weighted avg       0.86      0.86      0.86     10108
 
 ### License
 
