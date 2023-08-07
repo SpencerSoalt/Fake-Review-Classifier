@@ -135,7 +135,3 @@ weighted avg       0.86      0.86      0.86     10108
 #### Confusion Matrices
 
 ![Confusion Matrices](https://github.com/SpencerSoalt/Fake-Review-Classifier/blob/main/Confusion%20Matrices.png)
-
-### License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
