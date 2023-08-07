@@ -11,7 +11,6 @@ This project is centered around the design and implementation of a sophisticated
 - [Data](#data)
 - [Features & Feature Engineering](#features--feature-engineering)
 - [Methodology](#methodology)
-- [Installation and Dependencies](#installation-and-dependencies)
 - [Usage](#usage)
 - [Results](#results)
 - [License](#license)
@@ -51,37 +50,29 @@ For evaluation, the performance of these models is gauged using standard metrics
 
 ---
 
-### Installation and Dependencies
-
-To set up and run the Fake Review Detection Classifier, you need to install the following dependencies:
-
-```
-pip install requirements.txt
-```
-
-Ensure that you also download the required NLTK datasets using:
-
-```python
-import nltk
-nltk.download('popular')
-nltk.download("averaged_perceptron_tagger")
-```
-
----
-
 ### Usage
 
 To utilize the Fake Review Detection Classifier:
-
-1. **Data Loading**: 
+1. **Installation and Dependencies**
+    -  Install the following dependencies:
+        ```
+        pip install requirements.txt
+        ```
+    - Ensure that you also download the required NLTK datasets using:
+      ```python
+      import nltk
+      nltk.download('popular')
+      nltk.download("averaged_perceptron_tagger")
+      ```
+2. **Data Loading**: 
     - Ensure the `fake_reviews_dataset.csv` file is in the appropriate directory or adjust the path in the code accordingly.
     - Use the `load_data()` function to ingest the dataset into the program.
 
-2. **Feature Extraction**: 
+3. **Feature Extraction**: 
     - Process the reviews through the `linguistics_analysis()` function to obtain the subjectivity and polarity metrics for each review.
     - Tokenize the reviews to generate the Textual Vector.
 
-3. **Model Training & Evaluation**:
+4. **Model Training & Evaluation**:
     - Split the dataset into training and testing sets.
     - Instantiate the desired machine learning model: Decision Tree, KNN, or Neural Network.
     - Train the model on the training dataset.
