@@ -21,7 +21,7 @@ This project is centered around the design and implementation of a sophisticated
 To set up and run the Fake Review Detection Classifier, you need to install the following dependencies:
 
 ```
-pip install TextBlob langdetect nltk sklearn textblob tqdm
+pip install requirements.txt
 ```
 
 Ensure that you also download the required NLTK datasets using:
