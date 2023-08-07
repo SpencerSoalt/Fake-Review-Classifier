@@ -94,12 +94,18 @@ Note: Refer to the `fake_review_detection.py` script for detailed code implement
 ### Results
 
 #### Accuracy:
+```
 Decision Tree Accuracy: 0.72
+
 KNN Accuracy: 0.67
+
 Neural Network Accuracy: 0.86
+```
 
 #### Classification Reports:
 Decision Tree Classification Report
+```
+
               precision    recall  f1-score   support
 
  Fake Review       0.71      0.73      0.72      5077
@@ -108,8 +114,11 @@ Decision Tree Classification Report
     accuracy                           0.72     10108
    macro avg       0.72      0.72      0.72     10108
 weighted avg       0.72      0.72      0.72     10108
+```
 
 KNN Classification Report
+```
+
               precision    recall  f1-score   support
 
  Fake Review       0.68      0.63      0.66      5060
@@ -118,8 +127,11 @@ KNN Classification Report
     accuracy                           0.67     10108
    macro avg       0.67      0.67      0.67     10108
 weighted avg       0.67      0.67      0.67     10108
+```
 
 Neural Network Classification Report
+```
+
               precision    recall  f1-score   support
 
  Fake Review       0.86      0.87      0.86      5055
@@ -128,6 +140,7 @@ Neural Network Classification Report
     accuracy                           0.86     10108
    macro avg       0.86      0.86      0.86     10108
 weighted avg       0.86      0.86      0.86     10108
+```
 
 ### License
 
